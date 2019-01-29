@@ -1,5 +1,14 @@
-<?php
-echo "Hello World";
+<!DOCTYPE html>
+<html>
+<body>
 
-$i = 10 + 20;
+<?php
+$t = date("H");
+
+if ($t < "20") {
+    echo "Have a good day!";
+}
 ?>
+ 
+</body>
+</html>
